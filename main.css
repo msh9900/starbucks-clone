@@ -1,0 +1,58 @@
+/* COMMON */
+
+
+/* Fonts */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  font-size: 100px;
+  
+}
+header{
+    background-color: #f6f5ef;
+    border-bottom: 1px solid #c8c8c8;
+    border-top: 2px solid #000;
+}
+.inner{
+    display: flex;
+    width: 1100px;
+    height: 120px;
+    position: relative;
+}
+.logo{
+    width: 75px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+}
+.list1{
+    display: flex;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+
+}
+.list1 li{
+    color: #656565;
+    padding: 10px 15px;
+    font-size: 12px;
+}
+.list1 li:hover{
+    color: #000;
+
+}
+.list1 li::after{
+    content: "|";
+    float: right;
+    color: #ccc; 
+    margin-right: -17px;
+
+}
+.searchbtn{
+    position: absolute;
+    top: 10%;
+    left: 80%;
+}
